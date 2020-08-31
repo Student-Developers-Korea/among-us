@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'NanumBarunpen';
+  color: white;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://i.imgur.com/Sle8c7p.png);
+  background-color: black;
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  margin-top: auto;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(https://i.imgur.com/Df5iS8k.png);
+  background-size: contain;
+  background-position: center;
+  height: 17rem;
+  width: 33.625rem;
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: black;
+  display: inline-flex;
+  padding: 0 .7rem;
+  border: 2px solid white;
+  border-radius: .5rem;
+  font-size: 3rem;
+  margin: .3rem;
+}
+
+.btn:hover {
+  color: #00ff00;
+  border-color: #00ff00;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.nick {
+  background-color: black;
+  padding: 0 10rem;
+  border: 2px solid white;
+  outline: 1px solid white;
+  outline-offset: -7px;
+  border-radius: .5rem;
+  font-size: 3rem;
+}
+
+.bottom {
+  margin-top: 1rem;
+}
+
+.version {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.2rem;
+}
